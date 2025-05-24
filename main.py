@@ -9,8 +9,8 @@ intents.message_content = True
 intents.voice_states = True
 bot = commands.Bot(command_prefix='!', intents=intents)
 
-GUILD_ID = YOUR_GUILD_ID     # ใส่ guild ID
-VC_CHANNEL_ID = YOUR_VC_ID   # ใส่ voice channel ID
+GUILD_ID = 1369585458434019349     # ใส่ guild ID
+VC_CHANNEL_ID = 1375227595741855825   # ใส่ voice channel ID
 
 @bot.event
 async def on_ready():
